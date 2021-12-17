@@ -40,8 +40,8 @@ terminal.SLR([args.DNS,args.MSR])
 
 web = input(Fore.BLUE+"Open: ")
 try:
-    cprint("Opening: "+str(list[int(web)]), "green")
-    webbrowser.open_new(str(list[web]))
+    cprint("Opening: "+str(list[int(web)-1]), "green")
+    webbrowser.open_new(str(list[int(web)-1]))
 except:
-    cprint("...")
+    cprint("Requested link out of range or not valid; please check spelling")
 cprint("Script finshed", "red")
