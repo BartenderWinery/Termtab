@@ -4,7 +4,6 @@ from colorama import *
 from bs4 import BeautifulSoup
 import requests, threading, colorama, webbrowser, argparse
 
-colorama.init()
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="A quick term indexing tool to quickly find websites related to your keywords.")
@@ -14,6 +13,7 @@ if __name__ == "__main__":
     parser.add_argument("--PDR", metavar="PDR", action='store', help='Prefered domain for searches')
     args = parser.parse_args()
 
+    colorama.init()
 list = []
 #Add threading; thread control semi-complete: no dividing done
 
