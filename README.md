@@ -5,6 +5,7 @@
  usage: termtab.py [-h] [-msr msr] [-threads threads] [-pdr pdr] dns
 
  (Sorry about bad gif quality)
+ 
  ![Demo](https://aeroweb.netlify.app/packages/box/termtab.gif)
 
  A quick term indexing tool to quickly find websites related to your keywords.
