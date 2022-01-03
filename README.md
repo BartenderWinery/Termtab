@@ -4,6 +4,7 @@
 # Controls
  py termtab.py what-can-you-do-on-steam -msr 200
  ![Demo](https://aeroweb.netlify.app/packages/box/termtab.gif)
- (Bad gif quality lol)
  
+ (Bad gif quality lol)
+
  Threading/Perfered domains/Description not yet supported.
