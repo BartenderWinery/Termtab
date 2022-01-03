@@ -1,6 +1,6 @@
 import googlesearch as see, requests, bs4, termcolor as c, argparse, colorama as cc
 parser = argparse.ArgumentParser(description="A quick term indexing tool to quickly find websites related to your keywords.")
-parser.add_argument('dns', metavar='dns', action='store', help='Domain term search')
+parser.add_argument('dns', metavar='dns', action='store', help='term to search')
 parser.add_argument('-msr', metavar='msr', type=int, help='Maximum search range', default=10)
 parser.add_argument("-threads", metavar='threads', type=int, help='Threads to use', default=1)
 parser.add_argument("-pdr", metavar="pdr", action='store', help='Prefered domain for searches')
